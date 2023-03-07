@@ -1,0 +1,65 @@
+fontfiles = {
+    name = "Milonga-Regular"
+    always_load = yes
+    
+    group = {
+        languages = { "l_english" "l_braz_por" "l_french" "l_german" "l_polish" "l_russian" "l_spanish" "l_turkish" }
+        files = {
+            "fonts/Milonga/Milonga-Regular.ttf"
+            "fonts/NotoSerif/NotoSerifJP-Regular.otf" # Noto Serif is used for EBGaramond in Japanese
+            "fonts/MaruBuri/MaruBuri-SemiBold.ttf" # MaruBuri is used for EBGaramond in Korean
+            "fonts/NotoSerif/NotoSerifSC-Regular.otf" # Noto Serif is used for EBGaramond in Simplified Chinese
+            "fonts/NotoSerif/NotoSerif-Regular.ttf"
+        }
+    }
+    
+    group = {
+        languages = { "l_japanese" }
+        files = {
+            "fonts/NotoSerif/NotoSerifJP-Regular.otf" # Noto Serif is used for EBGaramond in Japanese
+            "fonts/Milonga/Milonga-Regular.ttf"
+            "fonts/MaruBuri/MaruBuri-SemiBold.ttf" # MaruBuri is used for EBGaramond in Korean
+            "fonts/NotoSerif/NotoSerifSC-Regular.otf" # Noto Serif is used for EBGaramond in Simplified Chinese
+            "fonts/NotoSerif/NotoSerif-Regular.ttf"
+        }
+    }
+
+    group = {
+        languages = { "l_korean" }
+        files = {
+            "fonts/MaruBuri/MaruBuri-SemiBold.ttf" # MaruBuri is used for EBGaramond in Korean
+            "fonts/Milonga/Milonga-Regular.ttf"
+            "fonts/NotoSerif/NotoSerifJP-Regular.otf" # Noto Serif is used for EBGaramond in Japanese
+            "fonts/NotoSerif/NotoSerifSC-Regular.otf" # Noto Serif is used for EBGaramond in Simplified Chinese
+            "fonts/NotoSerif/NotoSerif-Regular.ttf"
+        }
+    }
+    
+    group = {
+        languages = { "l_simp_chinese" }
+        files = {
+            "fonts/NotoSerif/NotoSerifSC-Regular.otf" # Noto Serif is used for EBGaramond in Simplified Chinese
+            "fonts/Milonga/Milonga-Regular.ttf"
+            "fonts/NotoSerif/NotoSerifJP-Regular.otf" # Noto Serif is used for EBGaramond in Japanese
+            "fonts/MaruBuri/MaruBuri-SemiBold.ttf" # MaruBuri is used for EBGaramond in Korean
+            "fonts/NotoSerif/NotoSerif-Regular.ttf"
+        }
+    }
+}
+
+font = {
+    name = "Milonga-Regular"
+    
+    fontstyle = {
+        style = regular
+        fontfiles = "Milonga-Regular"
+    }
+    fontstyle = {
+        style = bold
+        fontfiles = "Milonga-Regular"
+    }
+    fontstyle = {
+        style = italic
+        fontfiles = "Milonga-Regular"
+    }
+}

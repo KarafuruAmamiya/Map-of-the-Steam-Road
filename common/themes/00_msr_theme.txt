@@ -1,0 +1,32 @@
+﻿papermap_msr = {
+	category = papermap_theme
+
+	papermap_textures_file = "gfx/map/textures/maptextures_msr.settings"
+
+	map_object = {
+		pdxmesh = "papermap_extension_top_mesh"
+		locator = "papermap_extension_top_locator"
+	}
+
+	map_object = {
+		pdxmesh = "papermap_extension_bottom_mesh"
+		locator = "papermap_extension_bottom_locator"
+	}
+}
+
+papermap_msr_votp = {
+	category = papermap_theme
+	dlc = "dlc004"
+
+	papermap_textures_file = "gfx/map/textures/maptextures_msr_with_votp.settings"
+
+	map_object = {
+		pdxmesh = "papermap_extension_top_mesh"
+		locator = "papermap_extension_top_locator"
+	}
+
+	map_object = {
+		pdxmesh = "papermap_extension_bottom_mesh"
+		locator = "papermap_extension_bottom_locator"
+	}
+}

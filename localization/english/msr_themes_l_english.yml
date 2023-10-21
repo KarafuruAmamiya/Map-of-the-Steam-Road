@@ -1,0 +1,5 @@
+﻿l_english:
+ papermap_msr: "Map of the Steam Road"
+ papermap_msr_desc: "Original Map of the Steam Road."
+ papermap_msr_votp: "Map of the Steam Road (VoTP)"
+ papermap_base_desc: "Map of the Steam Road with VoTP papermap and overlay."
